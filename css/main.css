@@ -23090,7 +23090,7 @@ header .logo-holder {
 
 @media(min-width:768px) {
     header .logo-holder {
-        padding: 2rem;
+        /* padding: 2rem; */
     }
 }
 
@@ -23110,7 +23110,7 @@ header .logo-holder .logo-link .logo {
 
 header .logo-holder .logo-link .logo.logo-white {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
