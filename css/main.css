@@ -23102,7 +23102,8 @@ header .logo-holder .logo-link {
 }
 
 header .logo-holder .logo-link .logo {
-    width: 12rem;
+    /* width: 12rem; */
+    width: 6rem;
     opacity: 0;
     visibility: hidden;
     transition: all .3s ease;
@@ -31657,4 +31658,20 @@ nav.sitemap ul>li.level-3 {
 
 #bio .contact-methods a i.la-linkedin-in {
     color: #0077b5;
+}
+
+::-webkit-scrollbar{width: 5px;}
+::-webkit-scrollbar-track {
+    background: #000;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ff8a00;
+    border-radius: 5px;
 }
